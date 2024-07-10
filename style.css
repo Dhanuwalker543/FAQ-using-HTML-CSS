@@ -1,0 +1,61 @@
+
+img{
+    width: 25px;
+}
+
+.parallax {
+    background-image: url("abstract-2d-colorful-wallpaper-with-grainy-gradients_23-2151001602.avif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 100px 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 15px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.faq-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+details {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+summary::marker {
+    font-size: 1.2em;
+}
+
+details[open] summary::marker {
+    content: "- ";
+}
+
+details p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #555;
+}
